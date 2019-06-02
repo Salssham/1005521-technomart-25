@@ -10,7 +10,7 @@
 <div class="header-list">
 	<div class="header-list__logo">
 <a href="#">
-<img src="img/logo.png" width="150" height="50" alt="Логотип «ТЕХНОМАРТ»"> <!--Лого уточнить размер и путь-->
+<img src="img/logo.png" width="109" height="19" alt="Логотип «ТЕХНОМАРТ»"> 
 </a>
 </div>
 <form action="#" method="get" class="search header-list__search">
@@ -18,8 +18,8 @@
 <button type="submit" class="search__btn">Поиск:</button>
 </form>
 <ul class="panel header-list__panel">
-<li class="btn panel__btn">Закладка</li>
-<li class="btn btn--color--red panel__btn">Корзина</li>
+<li class="btn panel__btn"><button>Закладка</button></li>
+<li class="btn btn--color--red panel__btn"><button>Корзина</button></li>
 <li class="btn btn--color--green panel__btn"><a  href="#">Оформить заказ</a></li>
 </ul>
 </div>
@@ -37,13 +37,13 @@
 
 <nav class="nav">
 <ul class="list nav__list">
-<li class="list__item--activ list__item"><a href="index.html">Главная</a></li>
-<li class="list__item"><a href="#">Компания</a></li>
-<li class="list__item"><a href="#">Каталог</a></li>
-<li class="list__item"><a href="#">Новости</a></li>
-<li class="list__item"><a href="#">Спецпредложения</a></li>
-<li class="list__item"><a href="#">Доставка</a></li>
-<li class="list__item"><a href="#">Контакты</a></li>
+<li class="list__tab--activ list__tab"><a href="index.html">Главная</a></li>
+<li class="list__tab"><a href="#">Компания</a></li>
+<li class="list__tab"><a href="catalog.html">Каталог</a></li>
+<li class="list__tab"><a href="#">Новости</a></li>
+<li class="list__tab"><a href="#">Спецпредложения</a></li>
+<li class="list__tab"><a href="#">Доставка</a></li>
+<li class="list__tab"><a href="#">Контакты</a></li>
 </ul>
 </nav>
 </header>
@@ -74,7 +74,7 @@
 	
 	<footer class="footer">
 	<a class="footer__logo">
-<img src="img/logo.png" width="150" height="50" alt="Логотип «ТЕХНОМАРТ»"> <!--Лого-->
+<img src="img/logo.png" width="109" height="19" alt="Логотип «ТЕХНОМАРТ»"> <!--Лого-->
 </a>
 <address class="footer__contacts">
 г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8<br>
@@ -82,11 +82,11 @@
 </address>
 <nav class="nav">
 <ul class="list nav__list">
-<li class="list__item"><a href="#">Компания</a></li>
-<li class="list__item"><a href="#">Новости</a></li>
-<li class="list__item"><a href="#">Каталог</a></li>
-<li class="list__item"><a href="#">Доставка</a></li>
-<li class="list__item"><a href="#">Контакты</a></li>
+<li class="list__tab"><a href="#">Компания</a></li>
+<li class="list__tab><a href="#">Новости</a></li>
+<li class="list__tab"><a href="#">Каталог</a></li>
+<li class="list__tab"><a href="#">Доставка</a></li>
+<li class="list__tab"><a href="#">Контакты</a></li>
 </ul>
 </nav>
 
@@ -123,5 +123,34 @@
 </div>
 </footer>
 
+<section class="modal-login">
+<h2 class="visually-hidden">Личный кабинет</h2>
+<form class="userform modal-login__userform" action="https://echo.htmlacademy.ru" method="post">
+	<p>
+		<label class="userform__text" for="user-name">Ваше имя:</label>
+<input class="userform__enter" type="text" id="user-name" name="name" placeholder="Имя Фамилия">
+</p>
+<p>
+	<label class="userform__text" for="user-mail">Ваш e-mail:</label>
+<input class="userform__enter" type="text" id="user-mail" name="mail" placeholder="email@example.com">
+</p>
+<p>
+	<label class="userform__text" for="comment">Текст письма:</label>
+	<input  class="userform__bigenter" type="text" name="text-mail" id="comment">
+	</p>
+	<button class="userform__button" type="submit">ОТПРАВИТЬ</button>
+</form>
+<button class="userform__close" type="button"><img src="img/form-2.png">Закрыть</button>
+</section>
+</section>
+
+<section class="modal-map">
+<h2 class="visually-hidden">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</h2>
+<p>
+	<img class="modal-map__image" src="img/maps.png" width="970" height="476" alt="Офис компании по адресу ул. Большая Конюшенная 19. Санкт-Петербург">
+	
+</p>
+<button class="modal-map__close" type="button"><img src="img/form-2.png">Закрыть</button>
+</section>
   </body>
 </html>
