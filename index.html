@@ -76,10 +76,12 @@
 	<a class="footer__logo">
 <img src="img/logo.png" width="109" height="19" alt="Логотип «ТЕХНОМАРТ»"> <!--Лого-->
 </a>
-<address class="footer__contacts">
-г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8<br>
-+7 (812) 555-05-55
+<div class="footer__contacts">
+<address >
+г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8
 </address>
+<a href="tel:78125550555">+7 (812) 555-05-55</a>
+</div>
 <nav class="nav">
 <ul class="list nav__list">
 <li class="list__tab"><a href="#">Компания</a></li>
@@ -125,14 +127,14 @@
 
 <section class="modal-login">
 <h2 class="visually-hidden">Личный кабинет</h2>
-<form class="userform modal-login__userform" action="https://echo.htmlacademy.ru" method="post">
+<form class="userform modal-login__userform" action="#" method="post">
 	<p>
 		<label class="userform__text" for="user-name">Ваше имя:</label>
 <input class="userform__enter" type="text" id="user-name" name="name" placeholder="Имя Фамилия">
 </p>
 <p>
 	<label class="userform__text" for="user-mail">Ваш e-mail:</label>
-<input class="userform__enter" type="text" id="user-mail" name="mail" placeholder="email@example.com">
+<input class="userform__enter" type="mail" id="user-mail" name="mail" placeholder="email@example.com">
 </p>
 <p>
 	<label class="userform__text" for="comment">Текст письма:</label>
@@ -140,7 +142,7 @@
 	</p>
 	<button class="userform__button" type="submit">ОТПРАВИТЬ</button>
 </form>
-<button class="userform__close" type="button"><img src="img/form-2.png">Закрыть</button>
+<button class="userform__close" type="button"><img src="#">Закрыть</button>
 </section>
 </section>
 
@@ -150,7 +152,7 @@
 	<img class="modal-map__image" src="img/maps.png" width="970" height="476" alt="Офис компании по адресу ул. Большая Конюшенная 19. Санкт-Петербург">
 	
 </p>
-<button class="modal-map__close" type="button"><img src="img/form-2.png">Закрыть</button>
+<button class="modal-map__close" type="button"><img src="#">Закрыть</button>
 </section>
   </body>
 </html>
