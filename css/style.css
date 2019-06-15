@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+  padding: 0;
+  min-width: 980px;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-list {
+  font-family: "Cuprum", sans-serif;
+  background-color: #f3f7f8;
+}
+
+.header-list__logo {
+  background-color: #ee3643;
+  padding-top: 13px;
+  padding-right: 55px;
+  padding-left: 56px;
+  padding-bottom: 11px;
+  box-shadow: inset 0 -5px 0 0 #b52933;
+}
+
+.header-list {
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #33445a;
+}
+.search {
+  margin: 0;
+  padding: 14px 50px 10px;
+  background: #32425c;
+  border: none;
+  color: inherit;
+
+}
+.search, .search__item {
+  background: #32425c;
+  border: none;
+
+}
+.panel {
+  margin-left: auto;
+}
+
+.panel__btn {
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 15px 17px 40px;
+}
